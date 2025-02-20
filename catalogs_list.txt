@@ -1,0 +1,27 @@
+-rw-r--r--   1 root root          0 Oct 19 12:30 0
+lrwxrwxrwx   1 root root          7 Apr 22  2024 bin -> usr/bin // капталог для установленных прогамм, если устанавливаем программу она скорее всего будет установлена сюда
+drwxr-xr-x   2 root root       4096 Feb 26  2024 bin.usr-is-merged // или сюда, в этих двух каталогах bin хранятся бинарные файлы
+drwxr-xr-x   4 root root       4096 Dec 22 23:48 boot // тут находится ядро аперационной системы и загрузчик
+dr-xr-xr-x   2 root root       4096 Aug 27 19:22 cdrom // дисковод
+drwxr-xr-x  21 root root       5740 Jan 21 08:21 dev // устройства
+drwxr-xr-x 148 root root      12288 Jan 14 08:45 etc // каталог с настройками програм
+drwxr-xr-x   3 root root       4096 Oct  6 19:20 home // домашняя папка
+lrwxrwxrwx   1 root root          7 Apr 22  2024 lib -> usr/lib // библиотеки
+lrwxrwxrwx   1 root root          9 Apr 22  2024 lib64 -> usr/lib64 // библиотеки
+drwxr-xr-x   2 root root       4096 Apr  8  2024 lib.usr-is-merged // библиотеки
+drwx------   2 root root      16384 Oct  6 19:14 lost+found // тут сохраняется информаця в слуяае повреждений файловой системы
+drwxr-xr-x   3 root root       4096 Dec  1 11:56 media // каталог медия, опциональный каталог для монтирования
+drwxr-xr-x   2 root root       4096 Aug 27 18:37 mnt // временный каталог для монтирования
+drwxr-xr-x   5 root root       4096 Oct 19 12:30 opt // в котором хранятся нам нужные вещи, что не сильно поддается класификации и не подпадает под другие каталоги
+dr-xr-xr-x 488 root root          0 Jan 21 08:21 proc // каталог, который отображает все процессы, все программы, работающие на сервере
+drwx------   7 root root       4096 Oct  9 08:54 root // лиректория для пользователя root
+drwxr-xr-x  40 root root       1020 Jan 21 09:00 run // предназначен для хранения временных файлов, в частности для кого и кем были запещены
+lrwxrwxrwx   1 root root          8 Apr 22  2024 sbin -> usr/sbin // system bin
+drwxr-xr-x   2 root root       4096 Mar 31  2024 sbin.usr-is-merged
+drwxr-xr-x  39 root root       4096 Jan 12 21:20 snap
+drwxr-xr-x   2 root root       4096 Aug 27 18:37 srv // опциональный каталог
+-rw-------   1 root root 8589934592 Oct  6 19:18 swap.img
+dr-xr-xr-x  13 root root          0 Jan 21 08:21 sys // 
+drwxrwxrwt  24 root root      12288 Jan 21 15:51 tmp //
+drwxr-xr-x  12 root root       4096 Aug 27 18:37 usr //
+drwxr-xr-x  14 root root       4096 Oct  6 19:20 var // тут в директории log будут хранится логи наших програм
